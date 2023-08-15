@@ -1,0 +1,25 @@
+Var 
+pessoa : caractere
+
+Inicio
+
+Escreva("Quem você é?")
+leia(pessoa)
+	SE (pessoa = "fumante") ENTAO
+escreva("Vai para a área externa!")
+
+SENAO
+	SE (pessoa = "com animal") ENTAO
+escreva("Vai para a área externa!")
+
+SENAO
+	SE (pessoa = "Grupo de 5 ou mais") ENTAO
+escreva("Vai para o 1° andar!")
+
+SENAO
+escreva("Vai para térreo!")
+fimse
+fimse
+fimse
+
+
